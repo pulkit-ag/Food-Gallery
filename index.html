@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <title> Food Gallery</title>
+</head>
+<style>
+    body {
+      background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v714-bb-5_2_1.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f5ae5bebc0632a08f73156e9537f972d');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    </style>
+    <body>
+      <img src="https://www.airindia.in/Images/maharaja-about-03.jpg" alt="This is an image" width="100" height="100" style="float: left;" >
+
+        <h1 style="text-align: center"> Food Gallery</h1>
+        <h3 style="text-align: center"><i>Welcome to the Food Gallery, "The only thing we are serious about is food" hope you enjoy it.</i></h3>
+      
+        <form action="m.jsp" onsubmit=" return validate()" ><br>
+          <h2 style="text-align: center"><i><u>MENU</u></i></h2><br>
+          <table style="width:80%">
+            <tr>
+              <th style="text-align: left;"><h3>Fast Food</h3></th>
+              <th style="text-align: left;"><h3>Smoothies</h3></th> 
+              <th style="text-align: left;"><h3>Our Special</h3></th>
+            </tr>
+            <tr>
+              <td><img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80" alt="This is an image" width="120" height="110" >  Rs:100/- <br><br>
+                <input type="checkbox" name="fast food" value="bg">Burger</td>
+                <td><img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-08/21/17/enhanced/webdr11/original-1591-1408657835-3.jpg?downsize=600:*&output-format=auto&output-quality=auto" alt="This is an image" width="200" height="100" >  Rs:150/- <br><br>
+                  <input type="checkbox" name="smoothies" value="berries" > Green Tea and Berries Smoothie</td>
+                  <td><img src="https://media.vogue.in/wp-content/uploads/2020/08/chole-bhature-recipe.jpg" alt="This is an image" width="200" height="100" >  Rs:150/- <br>
+                    <input type="checkbox" name="our special" value="cb">Chole-Bhature</td>
+            </tr>
+            <tr>
+              <td><img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Pizza-from-Scratch_EXPS_FT20_8621_F_0505_1_home-2.jpg?fit=700,1024" alt="This is an image" width="120" >  Rs:150/- <br>
+                <input type="checkbox" name="fast food" value="pz">Pizza</td>
+              <td><img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-08/21/18/enhanced/webdr05/original-5395-1408658514-3.jpg?downsize=600:*&output-format=auto&output-quality=auto" alt="This is an image" width="200" height="100" >  Rs:200/- <br><br>
+                  <input type="checkbox" name="smoothies" value="chocolate"> Mint Chocolate Chip Smoothie</td>
+                  <td><img src="https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Neha_Mathur/Achari_Paneer_Tikka_Recipe_Party_Food.JPG" alt="This is an image" width="200" height="150" >  Rs:150/- <br>
+                    <input type="checkbox" name="our special" value="paneer">Achari Paneer Tikka</td>
+            </tr>
+            <tr>
+              <td><img src="https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="This is an image" width="120" >  Rs:80/- <br>
+                <input type="checkbox" name="fast food" value="nd">Noodles</td>
+                <td><img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-08/21/17/enhanced/webdr11/original-1602-1408657486-11.jpg?downsize=600:*&output-format=auto&output-quality=auto" alt="This is an image" width="200" height="150" >  Rs:220/- <br><br>
+                  <input type="checkbox" name="smoothies" value="chia seed"> Blueberry Agave Chia Seed Smoothie</td>
+                  <td><img src="https://as1.ftcdn.net/v2/jpg/02/06/86/30/1000_F_206863003_stXo7KdJv0Wx4FaE690dvgR6bT4H4Zan.jpg" alt="This is an image" width="200" height="150" >  Rs:50/- <br>
+                    <input type="checkbox" name="our special" value="dhokla">Dhokla</td>
+            </tr>
+            <tr>
+              <td><img src="https://img-global.cpcdn.com/recipes/ec0ef58a25161f3d/680x482cq70/basket-chaat-recipe-main-photo.webp" alt="This is an image" width="120" height="110" >  Rs:150/- <br>
+                <input type="checkbox" name="fast food" value="basket">Basket-Chaat</td>
+                <td><img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2015%2F10%2F15%2Fcaramel-frappuccino-mr.jpg&w=200&c=sc&poi=face&q=85" alt="This is an image" width="200" height="150" >  Rs:250/- <br>
+                  <input type="checkbox" name="smoothies" value="caramel">Caramel Smoothie</td>
+                  <td><img src="https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2018/01/shutterstock_414834802.jpg" alt="This is an image" width="200" height="150" >  Rs:150/- <br>
+                    <input type="checkbox" name="our special" value="chokha">Litti Chokha
+                  </td></tr>
+          </table>
+          <h4>Customer's Details:</h4>Name*
+          <input required type="text" name="cname" id="t1"><br><br>
+          Gender*<input type="radio"name="gen"value="male" required>Male 
+          <input type="radio"name="gen"value="female" required>Female<br><br>
+          phone no.
+          <input required type="text" name="num" maxlength="10" id="phone no"><br><br>
+          <input type="Submit" value="Place Order">
+        </div>
+        <script>
+          function validate (){
+            var mobiletxt =document.getElementById("phone no").value;
+            var mobileexp =/^\d{10}$/;
+            if(mobiletxt.match(mobileexp)){
+              return true;
+
+            }
+            else{
+              alert("Invalid Mobile Number");
+              return false;
+
+            }
+          }
+        </script>
+        </form>
+        
+
+</body>
+</html>
